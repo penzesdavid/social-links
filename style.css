@@ -1,0 +1,52 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--Grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tartalom{
+    background-color: var(--Grey-800);
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.tartalom img{
+    margin-top: 25px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.tartalom h1{
+    color: var(--White);
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+
+h2{
+    font-size: 1rem;
+    color: var(--Green);
+    font-weight: 400;
+}
